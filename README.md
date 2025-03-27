@@ -12,6 +12,13 @@ UI Images
 
 <img src="https://github.com/user-attachments/assets/a1460e38-8a2a-4f67-aceb-e5e5fe039473" width="500" height="300">
 
+<img src="https://github.com/user-attachments/assets/b37ff26d-de86-4d31-be1a-28b85e02824a" width="500" height="300">
+
+<img src="https://github.com/user-attachments/assets/28896442-3569-4d1e-952d-e6059722b351" width="500" height="300">
+
+
+
+
 
 
 
