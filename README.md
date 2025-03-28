@@ -114,7 +114,7 @@ streamlit run app.py
 
 ## **📩 Contact**  
 📧 **Email:** hetvibhora192@gmail.com  
-🌍 **GitHub:** [your-repo](https://github.com/hetvi-1905/FinGenius19)  
+🌍 **GitHub:** [FinGenius](https://github.com/hetvi-1905/FinGenius19)  
 
 
 ## **UI Images** 
