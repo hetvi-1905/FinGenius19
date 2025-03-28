@@ -140,6 +140,8 @@ $ pip install -r requirements.txt
 ### **3️⃣ Run Streamlit App**
 ```bash
 $ streamlit run app.py
+or
+$ python -m streamlit run app.py
 ```
 
 ---
