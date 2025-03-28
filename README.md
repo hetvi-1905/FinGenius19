@@ -1,23 +1,13 @@
 # FinTech19
-Here’s an improved **README.md** with **module-wise details**, while keeping it **structured, visually appealing, and precise**! 🚀  
-
----
 
 # **📌 FinGenius: AI-Powered Financial Analysis & Prediction Platform**  
-
-![FinGenius](https://your-image-url.com)  
-
----
 
 ## **📖 Overview**  
 🚀 **FinGenius** is an AI-powered financial analysis and prediction platform designed to provide insights into financial documents, stock trends, and investment risks. It utilizes advanced AI models to deliver **accurate predictions, sentiment analysis, and document-based intelligence**.  
 
----
-
 ## **🛠 Project Structure & Modules**  
 
 📂 **Folder Organization**  
-```
 FinGenius/
 │── chatbot/               # AI chatbot using Groq LLaMA3-8B & Gemini API
 │── data/                  # Financial & stock market dataset storage
@@ -29,7 +19,6 @@ FinGenius/
 │── app.py                 # Streamlit web application
 │── requirements.txt       # Dependencies
 │── README.md              # Project documentation
-```
 
 ### **📌 Module Breakdown**  
 
@@ -63,16 +52,12 @@ FinGenius/
 - Users can **upload reports, analyze stocks, and chat with AI**.  
 - Provides **visual graphs & insights** on financial trends.  
 
----
-
 ## **🔥 Features**  
 ✅ **AI Finance Chatbot** (Powered by **Groq LLaMA3-8B-8192** & **Gemini-1.5-Flash**)  
 ✅ **Financial Document Analysis** (PDF Upload & Retrieval using **FAISS**)  
 ✅ **Stock Price Prediction** (ARIMA, SARIMAX, LSTM) 📈  
 ✅ **Market Sentiment Analysis** (FinBERT for investment risk assessment)  
 ✅ **Real-time Data Fetching** (Yahoo Finance, Google Trends)  
-
----
 
 ## **🚀 Tech Stack**  
 💻 **Programming Language:** Python  
@@ -81,8 +66,6 @@ FinGenius/
 📡 **APIs:** Yahoo Finance, Google Trends, Grok  
 🗂 **Database:** FAISS for document search  
 ☁️ **Deployment:** Docker, AWS  
-
----
 
 ## **📥 Installation**  
 
@@ -102,15 +85,11 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
----
-
 ## **📌 Usage Guide**  
 1️⃣ Open **Streamlit UI** in your browser.  
 2️⃣ **Upload** financial reports & analyze insights.  
 3️⃣ **Ask Chatbot** financial queries using Groq/Gemini AI.  
 4️⃣ **Predict stock prices** & assess market trends.  
-
----
 
 ## **📊 Models Used**  
 🔹 **LLaMA3-8B-8192 (Groq API)** – AI chatbot for financial queries  
@@ -119,23 +98,14 @@ streamlit run app.py
 🔹 **ARIMA & SARIMAX** – Time-series forecasting for stock prices  
 🔹 **FinBERT** – Sentiment analysis for financial news  
 
----
-
 ## **🔗 APIs & Integrations**  
 🌍 **Yahoo Finance API** – Fetches real-time stock data  
 📈 **Google Trends API** – Market trend analysis  
 🤖 **Grok API** – AI chatbot integration  
 📂 **FAISS Indexing** – Intelligent document search  
 
----
-
 ## **🤝 Contributing**  
 👥 **Want to contribute?** Feel free to open an issue or submit a pull request. Let's build something amazing together! 🚀  
-
----
-
-## **📜 License**  
-📝 This project is licensed under the **MIT License**.  
 
 ---
 
