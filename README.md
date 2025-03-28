@@ -192,6 +192,6 @@ $ streamlit run app.py
 
 ## **📩 Contact**  
 📧 **Email:** hetvibhora192@gmail.com  
-🌍 **GitHub:** [FinGenius](https://github.com/hetvi-1905/FinGenius19)  
+🌍 **GitHub:** [Hetvi Bhora](https://github.com/hetvi-1905)  
 
 📢 **Join in revolutionizing financial analysis with AI! 🚀**
