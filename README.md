@@ -8,6 +8,7 @@
 ## **🛠 Project Structure & Modules**  
 
 📂 **Folder Organization**  
+
 FinGenius/
 │── chatbot/               # AI chatbot using Groq LLaMA3-8B & Gemini API
 │── data/                  # Financial & stock market dataset storage
@@ -19,6 +20,8 @@ FinGenius/
 │── app.py                 # Streamlit web application
 │── requirements.txt       # Dependencies
 │── README.md              # Project documentation
+
+--- 
 
 ### **📌 Module Breakdown**  
 
