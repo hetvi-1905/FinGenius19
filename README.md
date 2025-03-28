@@ -14,7 +14,7 @@ FinGenius/
 │── data/                  # Financial & stock market dataset storage
 │── data_collection/       # Scripts for real-time data fetching (Yahoo Finance, Google Trends)
 │── faiss_index/           # FAISS vector database for document retrieval
-│── fintech/               # Core financial models for prediction & analysis
+│── fintech/               # Virtual Env
 │── models/                # Pretrained ML models for stock forecasting & risk assessment
 │── utils/                 # Helper functions for data processing & API integration
 │── app.py                 # Streamlit web application
