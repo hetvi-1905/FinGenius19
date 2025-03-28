@@ -10,7 +10,7 @@ UI Images
 
 <img src="https://github.com/user-attachments/assets/fb98521c-13ad-4a43-94a9-e39801822398" width="500" height="300">
 
-<img src="https://github.com/user-attachments/assets/a1460e38-8a2a-4f67-aceb-e5e5fe039473" width="500" height="300">
+<img src="https://github.com/user-attachments/assets/8fbb5909-9a38-4700-adbc-6a5cf512e126" width="500" height="300">
 
 <img src="https://github.com/user-attachments/assets/b37ff26d-de86-4d31-be1a-28b85e02824a" width="500" height="300">
 
