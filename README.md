@@ -1,11 +1,14 @@
 # FinTech19
 
-# **📌 FinGenius: AI-Powered Financial Analysis & Prediction Platform**  
 
-## **📖 Overview**  
-🚀 **FinGenius** is an AI-powered financial analysis and prediction platform designed to provide insights into financial documents, stock trends, and investment risks. It utilizes advanced AI models to deliver **accurate predictions, sentiment analysis, and document-based intelligence**.  
 
-## **🛠 Project Structure & Modules**  
+# **FinGenius: AI-Powered Financial Insights & Prediction Platform**
+
+## **📌 Overview**
+Welcome to **FinGenius**, an advanced AI-powered financial analysis and prediction platform designed to provide insights into stock markets, document-based financial intelligence, and AI-driven chatbot assistance. This interactive platform comprises **five distinct modules**, each catering to a unique aspect of financial analytics and forecasting.
+
+---
+## **🛠 Project Structure**  
 
 📂 **Folder Organization**  
 
@@ -23,76 +26,128 @@ FinGenius/
 │── README.md              # Project documentation
 ```
 
-### **📌 Module Breakdown**  
+---
 
-### **1️⃣ AI Finance Chatbot (🤖 chatbot/)**
-- Implements **Groq's LLaMA3-8B-8192** & **Gemini-1.5-Flash** for answering finance-related queries.  
-- Capable of analyzing financial documents & summarizing insights.  
-- Integrated with **FAISS** for vector-based document retrieval.  
+## **🛠️ Modules & Features**
 
-### **2️⃣ Financial Document Analysis (📂 faiss_index/)**
-- Allows users to **upload financial PDFs** (e.g., balance sheets, annual reports).  
-- Uses **FAISS vector search** to retrieve relevant insights.  
-- AI-based NLP processing to extract **key financial data**.  
+### **1️⃣ Home 🏠**
+- Displays the project name **"FinGenius"** prominently.
+- Provides a concise one-line description of the platform’s purpose.
 
-### **3️⃣ Stock Price Prediction (📊 fintech/)**
-- Implements **ARIMA, SARIMAX, LSTM** models for time-series forecasting.  
-- Fetches **real-time stock data** from **Yahoo Finance API**.  
-- Predicts short-term **price movements & trends** for investment decisions.  
+---
 
-### **4️⃣ Market Sentiment Analysis (📈 models/)**
-- Uses **FinBERT (Finance-specific BERT model)** for **sentiment analysis**.  
-- Fetches **real-time financial news** from **Google Trends & Bloomberg**.  
-- Computes a **sentiment score** to assess stock investment risk.  
+### **2️⃣ Finance Chatbot 🤖**
+- AI-powered chatbot specialized in **finance-related queries**.
+- Utilizes **Groq’s LLaMA3-8B-8192** and **Gemini-1.5-Flash** models via API keys.
+- Functions similarly to ChatGPT but with a **finance-specific knowledge base**.
+- Capable of answering **general financial questions, market trends, and investment insights**.
 
-### **5️⃣ Real-Time Data Collection (📡 data_collection/)**
-- Integrates **Yahoo Finance API** for live stock prices.  
-- Scrapes **Google Trends** for market sentiment analysis.  
-- Stores data in structured format for **faster ML processing**.  
+---
 
-### **6️⃣ Web Application (🖥️ app.py)**
-- **Streamlit UI** for interacting with financial data & AI chatbot.  
-- Users can **upload reports, analyze stocks, and chat with AI**.  
-- Provides **visual graphs & insights** on financial trends.  
+### **3️⃣ Document-Oriented Analyzer 📄**
+A **dual-functional document analysis module**, allowing users to interact with uploaded financial documents:
 
-## **🔥 Features**  
-✅ **AI Finance Chatbot** (Powered by **Groq LLaMA3-8B-8192** & **Gemini-1.5-Flash**)  
-✅ **Financial Document Analysis** (PDF Upload & Retrieval using **FAISS**)  
-✅ **Stock Price Prediction** (ARIMA, SARIMAX, LSTM) 📈  
-✅ **Market Sentiment Analysis** (FinBERT for investment risk assessment)  
-✅ **Real-time Data Fetching** (Yahoo Finance, Google Trends)  
+#### **📌 3.1 - QA-Based Document Querying**
+- Allows users to upload financial documents.
+- Uses **FAISS RecursiveCharacterTextSplitter** and **Document Library** to **index & process** documents.
+- Enables users to **ask finance-specific questions** about the uploaded document.
+- Retrieves relevant text segments and utilizes **Groq & Gemini models** for AI-powered answers.
 
-## **🚀 Tech Stack**  
+#### **📌 3.2 - Document Summarization**
+- Uses **"summarize_text"** function to process the uploaded document.
+- AI-generated concise summary using **Groq & Gemini**.
+- Extracts key insights, enabling users to **grasp financial reports quickly**.
+
+---
+
+### **4️⃣ Stock Market Analysis & Risk Prediction 📈**
+- Users select a stock from the **dropdown menu**.
+- Retrieves **real-time stock price data**.
+- Plots **closing prices over the past month**.
+- Generates a **Risk Sentiment Score** (Low, Medium, or High) based on stock market trends.
+- Helps investors assess the **risk level of a stock before investing**.
+
+---
+
+### **5️⃣ News Sentiment Analysis & Stock Price Prediction 📰📊**
+A **hybrid module** that combines **news sentiment analysis** with **stock price forecasting**:
+
+🔹 **User Inputs:**
+  - Select **Stock Name** from dropdown.
+  - Choose **Forecasting Model** (**ARIMA or SARIMA**).
+
+🔹 **Outputs:**
+1️⃣ **Next-Day Stock Price Prediction** using **ARIMA or SARIMAX**.
+   - Implements **Auto ARIMA** to determine optimized **p, q, d** values for better accuracy.
+
+2️⃣ **Top 3 Financial News Articles & Sentiment Analysis**
+   - Extracts latest news using **Yahoo Finance API**.
+   - Applies **ProsusAI/FinBERT** model (Finance-specific Transformer) to determine:
+     - **News Sentiment** (Positive, Neutral, Negative).
+     - **Sentiment Score** (Confidence level in prediction).
+
+---
+
+### **6️⃣ Price Prediction for Next N Days 🔮**
+- **User Inputs:**
+  - Select **Stock Name**.
+  - Choose **Forecasting Model** (**ARIMA or SARIMA**).
+  - Adjust the slider for **"N" (Number of Days)** to predict future prices.
+
+- **Outputs:**
+  - **Predicted stock prices for the next N days**.
+  - **Line plot showcasing future trend predictions** alongside past price trends.
+  - Helps traders and investors **forecast market movements** with greater accuracy.
+
+---
+
+## **🔥 Features**
+✅ **AI-Driven Finance Chatbot** with **Groq LLaMA3-8B-8192** & **Gemini-1.5-Flash**.  
+✅ **Real-Time Market Analysis & Stock Forecasting** using ARIMA & SARIMAX  📈.
+✅ **Document-Based Financial Insights** with **FAISS** & Summarization.  
+✅ **Sentiment Analysis on Financial News** with FinBERT Transformer.  
+✅ **Interactive, User-Friendly Interface** powered by Streamlit.  
+
+---
+
+## **🚀 Tech Stack & Integrations**
 💻 **Programming Language:** Python  
-⚙️ **Frameworks:** Streamlit, Flask  
-🧠 **Machine Learning Models:** ARIMA, SARIMAX, LSTM, FinBERT  
-📡 **APIs:** Yahoo Finance, Google Trends, Grok  
-🗂 **Database:** FAISS for document search  
-☁️ **Deployment:** Docker, AWS  
+📡 **APIs:** Yahoo Finance, Google Trends, Groq, Gemini  
+🧠 **Machine Learning Models:** ARIMA, SARIMA, Auto-ARIMA, LLaMA3-8B, FinBERT  
+📊 **Visualization:** Matplotlib, Plotly, Seaborn  
+💾 **Database:** FAISS for document-based AI retrieval  
+⚙️ **Frameworks:** Streamlit, Flask 
+☁️ **Deployment:** Docker, AWS  ( optional ) 
 
-## **📥 Installation**  
+---
 
-### **1️⃣ Clone the Repository**  
+
+## **🚀 How to Run the Project**
+
+### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/your-repo/FinGenius.git
-cd FinGenius
+$ git clone https://github.com/your-repo/FinGenius.git
+$ cd FinGenius
 ```
 
-### **2️⃣ Install Dependencies**  
+### **2️⃣ Install Dependencies**
 ```bash
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
-### **3️⃣ Run the Application**  
+### **3️⃣ Run Streamlit App**
 ```bash
-streamlit run app.py
+$ streamlit run app.py
 ```
 
+---
 ## **📌 Usage Guide**  
 1️⃣ Open **Streamlit UI** in your browser.  
 2️⃣ **Upload** financial reports & analyze insights.  
 3️⃣ **Ask Chatbot** financial queries using Groq/Gemini AI.  
 4️⃣ **Predict stock prices** & assess market trends.  
+
+---
 
 ## **📊 Models Used**  
 🔹 **LLaMA3-8B-8192 (Groq API)** – AI chatbot for financial queries  
@@ -101,21 +156,15 @@ streamlit run app.py
 🔹 **ARIMA & SARIMAX** – Time-series forecasting for stock prices  
 🔹 **FinBERT** – Sentiment analysis for financial news  
 
+---
+
 ## **🔗 APIs & Integrations**  
 🌍 **Yahoo Finance API** – Fetches real-time stock data  
 📈 **Google Trends API** – Market trend analysis  
 🤖 **Grok API** – AI chatbot integration  
 📂 **FAISS Indexing** – Intelligent document search  
 
-## **🤝 Contributing**  
-👥 **Want to contribute?** Feel free to open an issue or submit a pull request. Let's build something amazing together! 🚀  
-
 ---
-
-## **📩 Contact**  
-📧 **Email:** hetvibhora192@gmail.com  
-🌍 **GitHub:** [FinGenius](https://github.com/hetvi-1905/FinGenius19)  
-
 
 ## **UI Images** 
  
@@ -141,19 +190,8 @@ streamlit run app.py
 ---
 
 
+## **📩 Contact**  
+📧 **Email:** hetvibhora192@gmail.com  
+🌍 **GitHub:** [FinGenius](https://github.com/hetvi-1905/FinGenius19)  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+📢 **Join in revolutionizing financial analysis with AI! 🚀**
