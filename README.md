@@ -3,12 +3,12 @@
 ## **📌 Overview**
 Welcome to **FinGenius**, an advanced AI-powered financial analysis and prediction platform designed to provide insights into stock markets, document-based financial intelligence, and AI-driven chatbot assistance. This interactive platform comprises **five distinct modules**, each catering to a unique aspect of financial analytics and forecasting.
 
-Technologies used:
-Time Series Forecasting
-NLP
-LangChain
-Gen AI 
-Large Language Models
+## 💻Technologies used:
+- Time Series Forecasting
+- NLP
+- LangChain
+- Gen AI 
+- Large Language Models
 ---
 ## **🛠 Project Structure**  
 
