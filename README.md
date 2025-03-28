@@ -143,6 +143,7 @@ $ streamlit run app.py
 or
 $ python -m streamlit run app.py
 ```
+Tip: can also make a virtual environment in the folder where this project is like the one in mine named "FinTech" and then activate it and then go to step 2 above 
 
 ---
 ## **📌 Usage Guide**  
