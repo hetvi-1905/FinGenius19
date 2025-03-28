@@ -143,8 +143,8 @@ $ streamlit run app.py
 or
 $ python -m streamlit run app.py
 ```
-Tip: can also make a virtual environment in the folder where this project is like the one in mine named "fintech" and then activate it and then go to step 2 above 
-Imp Note: Its important to download tesseract.exe from https://github.com/UB-Mannheim/tesseract/wiki and put in the folder and copy that absolute folder path in the place of "C:\\Program Files\\Tesseract-OCR\\tesseract.exe" in appy.py file to not get any error while extracting the information from the uploaded documents
+- Tip: can also make a virtual environment in the folder where this project is like the one in mine named "fintech" and then activate it and then go to step 2 above 
+- Imp Note: Its important to download tesseract.exe from https://github.com/UB-Mannheim/tesseract/wiki and put in the folder and copy that absolute folder path in the place of "C:\\Program Files\\Tesseract-OCR\\tesseract.exe" in appy.py file to not get any error while extracting the information from the uploaded documents
 
 ---
 ## **📌 Usage Guide**  
