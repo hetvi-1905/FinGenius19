@@ -1,7 +1,3 @@
-# FinTech19
-
-
-
 # **FinGenius: AI-Powered Financial Insights & Prediction Platform**
 
 ## **📌 Overview**
