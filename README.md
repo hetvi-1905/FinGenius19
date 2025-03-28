@@ -113,8 +113,8 @@ streamlit run app.py
 ---
 
 ## **📩 Contact**  
-📧 **Email:** your-email@example.com  
-🌍 **GitHub:** [your-repo](https://github.com/your-repo/FinGenius)  
+📧 **Email:** hetvibhora192@gmail.com  
+🌍 **GitHub:** [your-repo](https://github.com/hetvi-1905/FinGenius19)  
 
 
 ## **UI Images** 
