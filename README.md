@@ -79,7 +79,7 @@ A **hybrid module** that combines **news sentiment analysis** with **stock price
   - Choose **Forecasting Model** (**ARIMA or SARIMA**).
 
 🔹 **Outputs:**
-1️⃣ **Next-Day Stock Price Prediction** using **ARIMA or SARIMAX**.
+1️⃣ **Next-Day Stock Price Prediction** using **ARIMA or SARIMAX + Top 3 Latest News Sentiments related to that Ticker stock**.
    - Implements **Auto ARIMA** to determine optimized **p, q, d** values for better accuracy.
 
 2️⃣ **Top 3 Financial News Articles & Sentiment Analysis**
