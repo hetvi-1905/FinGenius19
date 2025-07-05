@@ -107,6 +107,7 @@ A **hybrid module** that combines **news sentiment analysis** with **stock price
 ## **🔥 Features**
 ✅ **AI-Driven Finance Chatbot** with **Groq LLaMA3-8B-8192** & **Gemini-1.5-Flash**.  
 ✅ **Real-Time Market Analysis & Stock Forecasting** using ARIMA & SARIMAX  📈.
+
 ✅ **Document-Based Financial Insights** with **FAISS** & Summarization.  
 ✅ **Sentiment Analysis on Financial News** with FinBERT Transformer.  
 ✅ **Interactive, User-Friendly Interface** powered by Streamlit.  
